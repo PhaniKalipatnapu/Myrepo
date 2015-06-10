@@ -11,11 +11,11 @@ CREATE TABLE [dbo].[RefCountyMaster](
 	[StateFips_CODE] [char](2) NOT NULL,
 	[State_CODE] [char](2) NOT NULL,
 	[County_CODE] [char](3) NOT NULL,
-	[County_NAME] [varchar](50) NOT NULL,
-	[BeginValidity_DATE] [datetime] NOT NULL,
-	[TransactionEventSeq_NUMB] [numeric](19, 0) NOT NULL,
-	[Update_DTTM] [datetime2](7) NOT NULL,
-	[WorkerUpdate_ID] [varchar](8) NOT NULL,
+	[County_NAMEE] [varchar](50) NOT NULL,
+	[BeginValidity_DATEE] [datetime] NOT NULL,
+	[TransactionEventSeq_NUMBB] [numeric](19, 0) NOT NULL,
+	[Update_DTTMM] [datetime2](7) NOT NULL,
+	[WorkerUpdate_IDD] [varchar](8) NOT NULL,
  CONSTRAINT [PK_STATE_CNTY] PRIMARY KEY CLUSTERED 
 (
 	[StateFips_CODE] ASC,
